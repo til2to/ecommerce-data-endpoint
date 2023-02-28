@@ -15,7 +15,7 @@ const server = new ApolloServer({
   resolvers: resolvers,
   cors: {
     origin: '*', // Allow all origins
-    credentials: true, // Enable credentials
+    credentials: false, // Enable credentials
   },
 });
 
