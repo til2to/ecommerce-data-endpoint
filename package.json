@@ -2,6 +2,7 @@
   "name": "junior-test-endpoint",
   "version": "1.0.0",
   "description": "",
+  "homepage": "/",
   "main": "src/main.ts",
   "scripts": {
     "build": "tsc",
