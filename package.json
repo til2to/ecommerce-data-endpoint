@@ -3,8 +3,9 @@
   "version": "1.0.0",
   "description": "",
   "main": "src/main.ts",
+  "homepage": "/",
   "scripts": {
-    "build": "tsc",
+    "build": "tsc && mkdir deploy && cp -r dist/* deploy",
     "start": "node dist/main.js",
     "dev": "concurrently \"tsc -w\" \"nodemon dist/main.js\""
   },
